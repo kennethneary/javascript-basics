@@ -1,0 +1,12 @@
+{
+  "name": "class",
+  "version": "1.0.0",
+  "description": "",
+  "provate": true,
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

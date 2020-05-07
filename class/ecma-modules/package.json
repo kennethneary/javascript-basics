@@ -1,0 +1,13 @@
+{
+  "name": "class",
+  "version": "1.0.0",
+  "description": "",
+  "provate": true,
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node --experimental-modules main.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
