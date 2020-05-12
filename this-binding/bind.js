@@ -11,7 +11,7 @@ const john = {
 }
 
 function newGreeting(weight) {
-    console.log(`Currect heigh is: ${this.height}. Current weight is: ${weight}`);
+    console.log(`Current heigh is: ${this.height}. Current weight is: ${weight}`);
 }
 
 john.greeting();
