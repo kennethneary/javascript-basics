@@ -14,4 +14,7 @@ export class Animal {
     sleep() {
         console.log(`${this.name} is sleeping.`);
     }
+    static breath() {
+        console.log('breathing');
+    }
 }

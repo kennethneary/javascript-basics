@@ -14,6 +14,9 @@ Animal.prototype.move = function(amount) {
 Animal.prototype.sleep = function() {
     console.log(`${this.name} is sleeping.`);
 }
+Animal.breath = function() { //static method
+    console.log('breathing');
+}
 
 
 function Dog(name, energy, breed) {
@@ -49,6 +52,7 @@ cat.eat(1);
 cat.sleep();
 cat.move(1);
 cat.meow();
+Animal.breath();
 
 console.log('Dog ....');
 const dog = new Dog('Max', 6, 'Beagle');
@@ -57,4 +61,5 @@ dog.eat(1);
 dog.sleep();
 dog.move(1);
 dog.bark();
+Animal.breath();
 

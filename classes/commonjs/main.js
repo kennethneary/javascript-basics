@@ -8,6 +8,7 @@ cat.eat(1);
 cat.sleep();
 cat.move(1);
 cat.meow();
+Cat.breath();
 
 console.log('Dog ....');
 const dog = new Dog('Max', 6, 'Beagle');
@@ -16,4 +17,5 @@ dog.eat(1);
 dog.sleep();
 dog.move(1);
 dog.bark();
+Dog.breath();
 
