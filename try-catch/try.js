@@ -1,8 +1,8 @@
 function testError() {
     try {
-        throw new Error("error"); // this is executed
+        throw new Error("error message"); // this is executed
     } catch(error) {
-        console.log("catch", error);
+        console.log("catch:", error.message);
         return 1;
     } finally {
         console.log("finally");
@@ -27,7 +27,7 @@ async function run(isFail) {
     try {
         return await asyncJob(1, 2000, isFail)
     } catch (error) {
-        console.log("catch", error);
+        console.log("catch:", error);
         return 'catch recovered';
     }
 }
@@ -39,7 +39,7 @@ async function runReThrow(isFail) {
     try {
         return await asyncJob('re throw error after logging', 2000, isFail)
     } catch (error) {
-        console.log("catch", error);
+        console.log("catch:", error);
         throw error; // re throw error after logging
     }
 }
