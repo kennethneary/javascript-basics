@@ -1,1 +1,1 @@
-# javascript-inheritance
+# javascript-basics
