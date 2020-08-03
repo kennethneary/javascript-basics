@@ -31,8 +31,8 @@ async function run(isFail) {
         return 'catch recovered';
     }
 }
-run(true).then(console.log); // then 1
-run(false).catch(console.log); // catch 'catch recovered'
+run(false).then(console.log); // then 1
+run(true).then(console.log); // catch 'catch recovered'
 
 
 async function runReThrow(isFail) {
